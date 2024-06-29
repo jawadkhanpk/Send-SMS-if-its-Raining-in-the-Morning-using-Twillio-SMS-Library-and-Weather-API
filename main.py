@@ -26,8 +26,8 @@ print(weather_data["weather"][0]["id"])
 
 
 # Get the weather condition code
-# weather_condition_code = weather_data["weather"][0]["id"]
-weather_condition_code = 23
+weather_condition_code = weather_data["weather"][0]["id"]
+
 
 will_rain = False
 if weather_condition_code < 700:  # Check if the weather condition code indicates rain
